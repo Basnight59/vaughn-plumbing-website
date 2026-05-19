@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/vaughn-plumbing-website/',
   plugins: [react()],
   build: {
     outDir: 'dist',
